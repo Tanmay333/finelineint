@@ -1,46 +1,121 @@
-# Getting Started with Create React App
+# FineLine Interiors
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FineLine Interiors is a modern and responsive website built using **React.js**, designed for an interior design business to showcase their services, portfolio, client testimonials, and consultation options. The site focuses on clean aesthetics, smooth navigation, and mobile-first design principles.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+🌐 [https://finelineinteriors.vercel.app](https://finelineinteriors.vercel.app)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠️ Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Frontend**: React.js, JavaScript, TailwindCSS
+- **Form Handling**: EmailJS (for sending emails directly from the consultation form)   
+- **Routing**: React Router DOM  
+- **Deployment**: Vercel  
+- **Assets**: Custom images and icons  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Project Structure
 
-### `npm run build`
+```
+fineline-interiors/
+│
+├── public/
+│   ├── assets/              # Static assets like logos, images
+│   └── index.html           # Main HTML file with custom favicon & title
+│
+├── src/
+│   ├── components/          # All React components (Navbar, Footer, etc.)
+│   ├── App.jsx              # Main component rendering the structure
+│   └── index.js             # Entry point
+│
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📸 Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🎯 Custom landing page with splash animation  
+- 🧭 Navigation with scroll-to-top behavior  
+- 💼 Dynamic Portfolio section  
+- 🌟 Client Reviews carousel  
+- 🧾 Consultation form with validation  
+- 📱 Fully responsive and mobile-friendly  
+- 🖼️ Custom branding with favicon and logo  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🔧 Installation & Setup
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Clone the repository
+git clone https://github.com/your-username/fineline-interiors.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Navigate to the project folder
+cd fineline-interiors
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Install dependencies
+npm install
 
-## Learn More
+# Start development server
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/)
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+This command creates an optimized build in the `build/` folder.
+
+---
+
+## 🧠 Learnings
+
+- Practiced advanced component structuring in React for better code reusability
+
+Implemented form handling and validation with EmailJS for real-world interactivity
+
+Gained hands-on experience with state management using hooks like useState, useEffect
+
+Learned to lift state up for parent-child component communication
+
+Mastered conditional rendering for UI logic and dynamic content display
+
+Worked with React Router DOM for multi-page-like navigation
+
+Applied scroll behavior with ScrollToTop pattern for better UX
+
+Designed a fully responsive layout using Tailwind CSS and mobile-first design principles
+
+Used ref hooks (useRef) for DOM manipulations and smooth form experience
+
+Explored React Lifecycle with useEffect in different scenarios
+
+Understood component optimization and clean rendering
+
+Hands-on with deployment & environment setup using Vercel
+
+Integrated third-party APIs (EmailJS) and handled async operations
+
+Created toast notifications for better feedback & UX 
+
+---
+
+
+
+---
+
+## 🙋‍♂️ Author
+
+**Developed by Tanmay Kathane**  
