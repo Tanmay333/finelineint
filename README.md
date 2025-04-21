@@ -84,31 +84,31 @@ This command creates an optimized build in the `build/` folder.
 
 - Practiced advanced component structuring in React for better code reusability
 
-Implemented form handling and validation with EmailJS for real-world interactivity
+- Implemented form handling and validation with EmailJS for real-world interactivity
 
-Gained hands-on experience with state management using hooks like useState, useEffect
+- Gained hands-on experience with state management using hooks like useState, useEffect
 
-Learned to lift state up for parent-child component communication
+- Learned to lift state up for parent-child component communication
 
-Mastered conditional rendering for UI logic and dynamic content display
+- Mastered conditional rendering for UI logic and dynamic content display
 
-Worked with React Router DOM for multi-page-like navigation
+- Worked with React Router DOM for multi-page-like navigation
 
-Applied scroll behavior with ScrollToTop pattern for better UX
+- Applied scroll behavior with ScrollToTop pattern for better UX
 
-Designed a fully responsive layout using Tailwind CSS and mobile-first design principles
+- Designed a fully responsive layout using Tailwind CSS and mobile-first design principles
 
-Used ref hooks (useRef) for DOM manipulations and smooth form experience
+- Used ref hooks (useRef) for DOM manipulations and smooth form experience
 
-Explored React Lifecycle with useEffect in different scenarios
+- Explored React Lifecycle with useEffect in different scenarios
 
-Understood component optimization and clean rendering
+- Understood component optimization and clean rendering
 
-Hands-on with deployment & environment setup using Vercel
+- Hands-on with deployment & environment setup using Vercel
 
-Integrated third-party APIs (EmailJS) and handled async operations
+- Integrated third-party APIs (EmailJS) and handled async operations
 
-Created toast notifications for better feedback & UX 
+- Created toast notifications for better feedback & UX 
 
 ---
 
